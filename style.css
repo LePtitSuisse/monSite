@@ -1,0 +1,66 @@
+*{
+  background-image: url("fond.jpg"); /*Salut*/
+  background-attachment: fixed;
+  background-repeat: repeat;
+  text-align: center;
+  font-family:monospace,sans-serif;
+}
+p{
+  color: white;
+  font-size: 1.2em;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+h1.home{
+  color: yellow;
+  border: 3px yellow solid;
+  border-radius: 10px;
+  /*box-shadow: 2px 2px 2px yellow;*/
+  width: 10%;
+  margin:auto;
+
+}
+h2{
+  color: yellow;
+  font-size: 1.4em;
+}
+h3{
+  color: yellow;
+  font-size: 1.3em;
+
+}
+a{
+  color: black;
+}
+a:hover{
+  color: yellow;
+}
+a:active{
+  color: white;
+}
+/*a:visited{
+  color: grey;
+}
+p:hover{
+  border-left: 2px solid white;
+}*/
+.flottant{
+  float: inherit;
+  width: 20em;
+  opacity: 1;
+}
+div.html{
+  clear: both;
+}
+div.nav{
+
+}
+#conteneur{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin:auto;
+  align-content: stretch;
+
+}
